@@ -5,6 +5,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel,
 
 const Calendar = () => {
     return (
+<<<<<<< HEAD
         <div className="lg:pl-4 lg:pt-4">
             <Header title="Calendrier">Voici votre calendrier. Si vous souhaitez envoyer une réclamation, saisissez-la ci-dessous et envoyez-la.</Header>
 
@@ -23,6 +24,13 @@ const Calendar = () => {
                     <DropdownMenuItem>Subscription</DropdownMenuItem>
                 </DropdownMenuContent>
             </DropdownMenu>
+=======
+        <div className="lg:pt-4 lg:pl-4">
+            <Header title="Calendrier">
+                Voici votre calendrier. Si vous souhaitez envoyer une réclamation, saisissez-la
+                ci-dessous et envoyez-la.
+            </Header>
+>>>>>>> cc4cec45d9abb6102f25515425acc111f472211b
         </div>
     )
 }
